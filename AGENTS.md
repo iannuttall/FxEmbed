@@ -26,7 +26,7 @@ Environment variables are generally set in .env, not in Wrangler, except for cer
 
 ### Prerequisites
 
-- **Node.js Latest LTS (Currently 24.14.x)** (CI uses `24.14.1`). The VM uses nvm; run `source ~/.nvm/nvm.sh && nvm use 24.14.1` before any npm commands.
+- **Node.js Latest LTS (Currently 24.22.x)** (CI uses `24.22.1`). The VM uses nvm; run `source ~/.nvm/nvm.sh && nvm use 24.22.1` before any npm commands.
 - Config files must exist before build/test: copy `wrangler.example.toml` → `wrangler.toml` and `.env.example` → `.env` if they don't already exist. `branding.json` is auto-copied from `branding.example.json` during build if missing.
 
 ### Key commands
